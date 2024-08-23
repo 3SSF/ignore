@@ -1,0 +1,156 @@
+@import url('https://raw.githubusercontent.com/fedoralabs-real/squarepfps/main/main.css');
+
+[class^="avatarDecoration_"] {
+  display: none !important;
+}
+
+/* Read All Button fix */
+button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85  {
+    all: unset !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: #62cdfe !important;
+    opacity: 1%;
+    font-family: "JetBrains Mono ExtraBold" !important;
+    font-weight: 600 !important;
+    font-size: 7.5pt !important;
+    padding: 1.5pt !important;
+    user-select: none !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    margin-left: 12px !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+    border-radius: 5px !important;
+    
+}
+
+button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
+    background-color: rgba(155, 155, 155, 0.151) !important;
+}
+
+/* Read All Button fix */
+button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85  {
+    all: unset !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: #62cdfe !important;
+    opacity: 1%;
+    font-family: "JetBrains Mono ExtraBold" !important;
+    font-weight: 600 !important;
+    font-size: 7.5pt !important;
+    padding: 1.5pt !important;
+    user-select: none !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    margin-left: 12px !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+    border-radius: 5px !important;
+    
+}
+
+button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
+    background-color: rgba(155, 155, 155, 0.151) !important;
+}
+/* App-Tags revert to Bot-Tags */
+.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3 {
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3:before {
+    content: "Bot";
+    font-size: 0.625rem;
+    line-height: 1.3;
+}
+
+/* Improved Timestamp visibility */
+.timestamp_f8f345 {
+  border: 2px solid var(--brand-500);
+  border-radius: 8px;
+  font-size: smaller;
+}
+.timestamp_f8f345::before {
+  content: "🕔";
+  margin-left: -2px;
+  display: inline-block;
+}
+.timestamp_f8f345::after {
+  content: "";
+  margin-right: 2px;
+}
+
+/* Unclamp Bios */
+.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
+  -webkit-line-clamp: unset;
+  max-height: 400px;
+}
+.viewFullBio_fc5c48{display: none;
+}
+
+.tabBar__35f81.top__592a7 .tabBarItem_b56b35.item__48dda:nth-child(2) {
+  order: 3;
+}
+
+.tabBar__35f81.top__592a7 .tabBarItem_b56b35.item__48dda:nth-child(2) {
+  order: 3;
+}
+
+/* Target the role elements and apply styles */
+.role_f9575e{
+  transform: translate(0);
+  border: 0;
+  border-radius: 5px !important;
+}
+
+/* Target the roleRemoveIcon and adjust its positioning */
+.role_f9575e .roleRemoveIcon_e4010c {
+  margin: 0;
+  left: unset;
+  transform: translate(-49%, -50%);
+}
+
+/* Reset the positioning of roleRemoveButton */
+.role_f9575e .roleRemoveButton_f9575e {
+  position: static;
+}
+
+/* Target the roleCircle element and apply additional styles */
+.role_f9575e .roleCircle_a26d7b:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border: 2px solid transparent;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+  z-index: -1 !important;
+  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  /* Optional, change the opacity with changing the 1 to values like 0.4 */
+  opacity: 1 !important;
+}
+
+/* Fix the text being too blurry */
+.roleNameOverflow_27401 {
+  color: hsl(0, 0%, 75%);
+}
+
+@import url('https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css'); 
+
+[class^="avatarDecoration_"] {
+  display: none !important;
+}
+
+body, * {
+    font-family: "JetBrains Mono SemiBold", sans-serif !important;
+    font-size: 15.5px !important;
+    font-stretch: semi-condensed;
+}
+
+/* Override specific Discord elements */
+h1, h2, h3, h4, h5, h6, p, span, a, div, button, input, textarea, label, code, pre {
+    font-family: "JetBrains Mono SemiBold", sans-serif !important;
+}
+
